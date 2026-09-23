@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/r", "destination": "/api/r" },
+    { "source": "/pixel/logo.png", "destination": "/api/r?part=pixel" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    }
+  ]
+}

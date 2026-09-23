@@ -1,0 +1,9 @@
+{
+  "name": "superhuman-0click-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Beacon receiver and live monitor for the Superhuman Mail for Android 0-click PoC (HackerOne #4038239). No dependencies: the store talks to Vercel KV's REST API with fetch.",
+  "engines": {
+    "node": ">=18"
+  }
+}
